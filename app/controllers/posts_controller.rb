@@ -2,11 +2,12 @@
 class PostsController < ApplicationController
   def index
     @post = Post.all
+    # test
   end
 
 
   def new
-  
+
   end
 
 
